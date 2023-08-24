@@ -4,6 +4,20 @@ function Modalget({ setModel, Model }) {
   const [otpDigits, setOtpDigits] = useState(["", "", "", "", "", ""]);
   const [activeInput, setActiveInput] = useState(0);
   const inputRefs = useRef([]);
+  const [isopen ,setIsopen] = useState(Model)
+
+  useEffect(() => {
+    if (isopen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+
+    // Clean up the effect
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [isopen]);
 
   useEffect(() => {
     if (inputRefs.current[activeInput]) {

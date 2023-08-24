@@ -1,6 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Modallog({setModel,Model}) {
+
+  const [isopen ,setIsopen] = useState(Model)
+
+  useEffect(() => {
+    if (isopen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+
+    // Clean up the effect
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [isopen]);
   return (
     <>
         <div className="w-full h-screen fixed  top-0 z-30 ">

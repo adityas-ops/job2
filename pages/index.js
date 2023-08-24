@@ -109,11 +109,11 @@ export default function Home() {
                 <Carousel />
               </div>
 
-              <div className="w-full h-full flex justify-center py-8">
+              {/* <div className="w-full h-full flex justify-center py-8">
                 <button className=" h-[50px] rounded-[8px] mx-4 px-[2rem] w-full md:w-[350px] border-2 border-bluee font-[500]  text-bluee hover:bg-indigo text-[1.1875rem]">
                   Explore the jobcase community
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -151,10 +151,10 @@ export default function Home() {
         <div className="max-w-[1280px] w-full px-4 md:px-0 h-full ">
           <div className="w-full flex  ">
             <div className="md2:flex-[50%]   flex-[100%]">
-              <h3 className="md2:text-[2.25rem] text-[1.5rem] font-[500] md:pb-[2.25rem] pb-[1rem] ">
+              <h3 className="md2:text-[2.25rem] font-Domine text-[1.5rem] font-[500] md:pb-[2.25rem] pb-[1rem] ">
                 Discover free resources
               </h3>
-              <div className=" w-full md:w-[660px] resources md:flex grid grid-cols-1 resources   flex-wrap ">
+              <div className=" w-full md:w-full  resources md:flex grid grid-cols-1 resources   flex-wrap ">
                 {resources.map((item, index) => {
                   return (
                     <>
@@ -166,17 +166,17 @@ export default function Home() {
                 })}
               </div>
             </div>
-            <div className="hidden md2:block w-full">
+            {/* <div className="hidden md2:block w-full">
               <img src="/images/landingPage/last.svg" alt="as" />
-            </div>
+            </div> */}
           </div>
-          <Link
+          {/* <Link
             href="#"
             className="text-bluee flex items-center text-[18px] font-[500]"
           >
             See them all
             <FiArrowRight className="ml-2" />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="pt-[3rem]  md:px-[5rem] px-4 flex justify-center  items-center">
