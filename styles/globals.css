@@ -53,3 +53,15 @@ body.modal-open {
   -o-transform: rotate(-15.619deg);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-horizontal {
+  display: none;
+}
+
+
+
+
+

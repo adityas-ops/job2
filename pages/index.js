@@ -185,24 +185,24 @@ export default function Home() {
             Trending topics
           </h3>
           <div className="pt-[1rem] w-full   pb-[5rem]">
-            <ul className="flex  md:flex-wrap   overflow-x-scroll no-scrollbar ">
+            <ul className="flex  md:flex-wrap   overflow-x-scroll overscroll-none no-scrollbar ">
               {search2.map((item, index) => {
                 return (
                   <>
-                    <li key={index} className="mx-2">
+                    <li key={index} className="mx-2 overscroll-none">
                       <Chips3 title={item.title} followers={item.followers} />
                     </li>
                   </>
                 );
               })}
             </ul>
-            <Link
+            {/* <Link
               href="#"
               className="text-bluee flex items-center text-[19px]  font-[500] mt-1"
             >
               See what people are talking about
               <FiArrowRight className="ml-2" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
