@@ -11,7 +11,7 @@ function Hero2() {
               <p className=" font-Domine leading-[1.75] text-[#4834D4] font-bold text-[2rem] sm:text-[40px] tracking-[-1.2px]">
                 <span className="text-[#FC6142]">A new LinkedIn</span> for the teens of new India
               </p>
-              <p className=" sm:mt-[40px] mt-[10px]  font-Inter font-[400]  text-[18px] sm:text-[20px] text-[#595959] leading-[1.75] tracking-[-0.015em]">
+              <p className=" sm:mt-[20px] mt-[10px]  font-Inter font-[400]  text-[18px] sm:text-[20px] text-[#595959] leading-[1.75] tracking-[-0.015em]">
                 A cutting-edge networking platform designed specifically for
                 high school students set to revolutionize the way teenagers
                 connect, collaborate, and grow in the digital age
