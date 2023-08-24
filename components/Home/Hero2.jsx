@@ -4,7 +4,7 @@ import React from "react";
 function Hero2() {
   return (
     <>
-      <div className=" w-full max-w-[1280px]  pb-[60px] sm:pb-0 mx-auto h-[110vh] sm:h-full  px-[20px] sm:px-[76px]">
+      <div className=" w-full max-w-[1280px]  pb-[60px] sm:pb-0 mx-auto h-[110vh] sm:h-[532px]  px-[20px] sm:px-[76px]">
         <div className=" w-full sm:h-[600px] h-full  flex flex-col-reverse sm:flex-row gap-0 sm:gap-[15px]">
           <div className=" h-fit sm:h-full w-full   flex items-center justify-center">
             <div>
